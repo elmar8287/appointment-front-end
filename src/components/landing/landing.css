@@ -209,13 +209,6 @@ body {
   line-height: 1.6;
 }
 
-.sidebar__nav-link {
-  padding: 0.4rem;
-  border-radius: 0.9rem;
-  color: #fff !important;
-  background-color: #0ea5e9;
-}
-
 .sidebar__nav-link--active {
   background-color: #dbeafe;
   border-bottom-left-radius: 0.9rem;
@@ -245,10 +238,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-}
-
-.sidebar__profile li {
-  font-size: 2rem;
 }
 
 .section-cars {
