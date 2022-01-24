@@ -14,7 +14,7 @@
 
 ## Project milestones:
 
-- Login and registration page
+- Set landing page
 - ..
 - ..
 ..
