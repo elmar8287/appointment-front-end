@@ -84,27 +84,23 @@ body {
   font-family: inherit;
 }
 
-.btn,
 .btn--full:link,
 .btn--full:visited {
   color: #fff;
   background-color: #0ea5e9;
 }
 
-.btn,
 .btn--full:hover,
 .btn--full:active {
   background-color: #0d95d2;
 }
 
-.btn,
 .btn--outline:link,
 .btn--outline:visited {
   color: #03212f;
   background-color: #fff;
 }
 
-.btn,
 .btn--outline:hover,
 .btn--outline:active {
   box-shadow: 0 0 0 0.3rem #0ea5e9;
@@ -183,7 +179,7 @@ body {
   font-family: inherit;
   color: inherit;
   border: none;
-  border-bottom: 0 1px 2px solid #000;
+  border-bottom: 1px solid #000;
   border-radius: 9px;
 }
 
@@ -213,7 +209,7 @@ body {
   line-height: 1.6;
 }
 
-.sidebar__nav-link ion-icon {
+.sidebar__nav-link {
   padding: 0.4rem;
   border-radius: 0.9rem;
   color: #fff !important;
@@ -225,11 +221,6 @@ body {
   border-bottom-left-radius: 0.9rem;
   border-top-left-radius: 0.9rem;
   box-shadow: 2rem 0 1rem rgba(255, 255, 255, 0.603);
-}
-
-.sidebar__nav-link ion-icon {
-  color: #0284c7;
-  font-size: 2rem;
 }
 
 .sidebar .app-logo {
@@ -256,7 +247,7 @@ body {
   gap: 0.8rem;
 }
 
-.sidebar__profile li ion-icon {
+.sidebar__profile li {
   font-size: 2rem;
 }
 
@@ -276,10 +267,12 @@ body {
   grid-template-columns: 1fr;
   cursor: pointer;
 }
+
 .car-card img {
   width: 100%;
   margin-bottom: 1.6rem;
 }
+
 .car-card__title {
   font-size: 2.4rem;
   font-weight: 500;
