@@ -21,7 +21,10 @@ const Landing = () => {
             Don't deny yourself the pleasure of driving the best premium cars
             from around the world here and now. We have the best cars for you.
           </p>
+          <Link to="/signup">
           <a className="btn btn--full margin-right--sm" href="#">Explore Now</a>
+          </Link>
+          
           <Link to="/login">
             <a className="btn btn--outline" href="#">Log In</a>
           </Link>
