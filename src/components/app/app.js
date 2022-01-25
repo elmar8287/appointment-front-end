@@ -1,5 +1,3 @@
-/*eslint no-trailing-spaces: "error"*/
-
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Landing from '../landing/landing';
@@ -10,7 +8,7 @@ const App = () => (
     <Routes>
       <Route exact path="/" element={<Landing />} />
       <Route path="login" element={<Login />} />
-    </Routes>    
+    </Routes>
   </BrowserRouter>
 );
 
