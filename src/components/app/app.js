@@ -4,7 +4,6 @@ import Landing from '../landing/landing';
 import Login from '../login/login';
 import Signup from '../signup/signup';
 
-
 const App = () => (
   <BrowserRouter>
     <Routes>
