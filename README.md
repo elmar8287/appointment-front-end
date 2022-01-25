@@ -14,9 +14,8 @@
 
 ## Project milestones:
 
-- Login and registration page
-- ..
-- ..
+- Landing page creating
+- Login page creating
 ..
 
 ## Preparation
