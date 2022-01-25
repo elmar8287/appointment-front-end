@@ -1,5 +1,6 @@
 import React from 'react';
 import Partners from '../partners/partners';
+import { Link } from 'react-router-dom';
 import './landing.css'
 
 const hero = require('./img/hero.png');
@@ -21,7 +22,9 @@ const Landing = () => {
             from around the world here and now. We have the best cars for you.
           </p>
           <a className="btn btn--full margin-right--sm" href="#">Explore Now</a>
-          <a className="btn btn--outline" href="#">Log In</a>
+          <Link to="/login">
+            <a className="btn btn--outline" href="#">Log In</a>
+          </Link>
         </div>
         <div className="hero__img-box">
           <img src={hero} alt="Ford mustang GT500 blue back view" />
