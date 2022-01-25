@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Landing from '../landing/landing';
+import Login from '../login/login';
 
-const App = () => {
-  <div>
-    <Landing />
-  </div>;
+export default class App extends Component {
+  render () {
+    return (
+      <div>
+        <Landing />
+        <Login />
+      </div>
+    );
+  };
 };
-
-export default App;

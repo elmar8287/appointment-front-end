@@ -13,32 +13,32 @@ const image7= require('./img/logos/image-7.png');
 
 const Landing = () => {
   return (
-    <dev>
-        <section class="section-hero">
-      <div class="container-hero">
-        <div class="hero__text-box">
-          <h1 class="heading-primary">
+    <div>
+        <section className="section-hero">
+      <div className="container-hero">
+        <div className="hero__text-box">
+          <h1 className="heading-primary">
             Premium <br />
             Car Rental <br />
             in New York
           </h1>
-          <p class="hero__description">
+          <p className="hero__description">
             Don't deny yourself the pleasure of driving the best premium cars
             from around the world here and now. We have the best cars for you.
           </p>
-          <a class="btn btn--full margin-right--sm" href="#">Explore Now</a>
-          <a class="btn btn--outline" href="#">Log In</a>
+          <a className="btn btn--full margin-right--sm" href="#">Explore Now</a>
+          <a className="btn btn--outline" href="#">Log In</a>
         </div>
-        <div class="hero__img-box">
+        <div className="hero__img-box">
           <img src={hero} alt="Ford mustang GT500 blue back view" />
         </div>
       </div>
     </section>
 
-    <section class="section-partners">
-      <div class="container partners">
-        <h2 class="partners__heading">Our Partners</h2>
-        <div class="logos">
+    <section className="section-partners">
+      <div className="container partners">
+        <h2 className="partners__heading">Our Partners</h2>
+        <div className="logos">
           <img src={image1} alt="Partners logo" />
           <img src={image2} alt="Partners logo" />
           <img src={image3} alt="Partners logo" />
@@ -49,7 +49,7 @@ const Landing = () => {
         </div>
       </div>
     </section>
-    </dev>
+    </div>
   );
 };
 
