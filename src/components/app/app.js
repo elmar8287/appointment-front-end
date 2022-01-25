@@ -4,6 +4,7 @@ import Landing from '../landing/landing';
 import Login from '../login/login';
 import Signup from '../signup/signup';
 import Main from '../main/main';
+import Item from '../item-car/item-car';
 
 const App = () => (
   <BrowserRouter>
@@ -12,6 +13,7 @@ const App = () => (
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
       <Route path="main" element={<Main />} />
+      <Route path="item" element={<Item />} />
     </Routes>
   </BrowserRouter>
 );
