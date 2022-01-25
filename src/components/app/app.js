@@ -1,14 +1,16 @@
+// eslint-disable-next-line react/prefer-stateless-function
+
 import React, { Component } from 'react';
 import Landing from '../landing/landing';
 import Login from '../login/login';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
         <Landing />
         <Login />
       </div>
-    )
+    );
   }
 }
