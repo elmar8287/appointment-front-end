@@ -4,7 +4,6 @@ import Landing from '../landing/landing';
 import Login from '../login/login';
 
 const App = () => (
-
   <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Landing />} />
