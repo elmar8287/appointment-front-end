@@ -2,7 +2,7 @@ import React from 'react';
 import '../landing/landing.css'
 import Partners from '../partners/partners';
 
-const heroBack = require('./img/hero--back.png');
+const hero2 = require('./img/hero2.png');
 
 const Login = () => {
   return (
@@ -38,7 +38,7 @@ const Login = () => {
         </div>
         <div className="hero__img-box">
           <img
-            src={heroBack}
+            src={hero2}
             alt="Ford mustang GT500 blue back view"
           />
         </div>
