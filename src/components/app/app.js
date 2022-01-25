@@ -1,3 +1,5 @@
+/*eslint no-trailing-spaces: "error"*/
+
 import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Landing from '../landing/landing';
