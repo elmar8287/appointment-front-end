@@ -4,13 +4,11 @@ import React from 'react';
 import Landing from '../landing/landing';
 import Login from '../login/login';
 
-const App = () => {
-  return (
-    <div>
-      <Landing />
-      <Login />
-    </div>
-  );
-};
+const App = () => (
+  <div>
+    <Landing />
+    <Login />
+  </div>
+);
 
 export default App;
