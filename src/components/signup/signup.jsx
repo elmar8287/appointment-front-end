@@ -1,19 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../landing/landing.css'
 import Partners from '../partners/partners';
 
 const hero2 = require('./img/hero2.png');
 
-const Login = () => {
+const Signup = () => {
   return (
     <div>
       <section className="section-hero">
       <div className="container-hero">
         <div className="hero__text-box">
-          <form className="form form--login" action="">
+          <form className="form" action="">
             <div>
-              <label htmlFor="email">Email Address</label>
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email Address</label>
               <input
                 type="email"
                 name="email"
@@ -22,9 +32,8 @@ const Login = () => {
                 required
               />
             </div>
-            <br />
             <div>
-              <label htmlFor="password">Pasword</label>
+              <label for="password">Pasword</label>
               <input
                 type="password"
                 name="password"
@@ -33,11 +42,17 @@ const Login = () => {
                 required
               />
             </div>
-            <br />
-            <Link to="/main">
-              <a className="btn btn--full margin-top--sm" href="#">Log In</a>
-            </Link>
-            
+            <div>
+              <label for="password">Confirm Pasword</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Confirm your password"
+                required
+              />
+            </div>
+            <a className="btn btn--full margin-top--sm" href="#">Create Account</a>
           </form>
         </div>
         <div className="hero__img-box">
@@ -48,9 +63,9 @@ const Login = () => {
         </div>
       </div>
     </section>
-    <Partners />
+      <Partners />
     </div>
   );
 };
 
-export default Login;
+export default Signup;
