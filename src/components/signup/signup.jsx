@@ -7,10 +7,10 @@ const hero2 = require('./img/hero2.png');
 const Signup = () => {
   return (
     <div>
-      <section class="section-hero">
-      <div class="container-hero">
-        <div class="hero__text-box">
-          <form class="form" action="">
+      <section className="section-hero">
+      <div className="container-hero">
+        <div className="hero__text-box">
+          <form className="form" action="">
             <div>
               <label for="name">Full Name</label>
               <input
@@ -52,10 +52,10 @@ const Signup = () => {
                 required
               />
             </div>
-            <a class="btn btn--full margin-top--sm" href="#">Create Account</a>
+            <a className="btn btn--full margin-top--sm" href="#">Create Account</a>
           </form>
         </div>
-        <div class="hero__img-box">
+        <div className="hero__img-box">
           <img
             src={hero2}
             alt="Ford mustang GT500 blue back view"

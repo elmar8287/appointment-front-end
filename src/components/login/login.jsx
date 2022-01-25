@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../landing/landing.css'
 import Partners from '../partners/partners';
 
@@ -33,7 +34,10 @@ const Login = () => {
               />
             </div>
             <br />
-            <a className="btn btn--full margin-top--sm" href="#">Log In</a>
+            <Link to="/main">
+              <a className="btn btn--full margin-top--sm" href="#">Log In</a>
+            </Link>
+            
           </form>
         </div>
         <div className="hero__img-box">
