@@ -14,9 +14,8 @@
 
 ## Project milestones:
 
-- Set landing page
-- ..
-- ..
+- Landing page creating
+- Login page creating
 ..
 
 ## Preparation
