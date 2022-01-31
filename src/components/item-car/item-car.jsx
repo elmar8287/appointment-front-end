@@ -13,8 +13,6 @@ export default class Item extends Component {
 		};
 	}
 
-	// ComponentDidMount is used to
-	// execute the code
 	componentDidMount() {
 		fetch(
   "https://whispering-temple-38914.herokuapp.com/v1/industries/1/")
