@@ -1,14 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../landing/landing.css'
 
 const image1 = require('./img/onecar.webp');
 
-const Item = () => {
+export default class Item extends Component {
+  constructor(props) {
+		super(props);
+
+		this.state = {
+			items: [],
+			DataisLoaded: false
+		};
+	}
+
+	// ComponentDidMount is used to
+	// execute the code
+	componentDidMount() {
+		fetch(
+  "https://whispering-temple-38914.herokuapp.com/v1/industries/1/")
+			.then((res) => res.json())
+			.then((json) => {
+				this.setState({
+					items: json,
+					DataisLoaded: true
+				});
+			})
+	}
+
+  render() {
+		const { DataisLoaded, items } = this.state;
+		if (!DataisLoaded) return <div>
+			<h1> Pleses wait some time.... </h1> </div> ;
+
   return (
-    <div>
-      <div class="app-grid">
+    <div class="app-grid">
       <aside class="sidebar">
         <div class="app-logo">Lando</div>
+
         <ul class="sidebar__nav">
           <li class="sidebar__nav-link sidebar__nav-link--active">
             <ion-icon name="car-sport-outline"></ion-icon><span>Ford</span>
@@ -63,8 +91,6 @@ const Item = () => {
         </section>
       </main>
     </div>
-    </div>
   );
 };
-
-export default Item;
+};
