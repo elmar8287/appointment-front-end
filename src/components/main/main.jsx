@@ -2,13 +2,6 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import '../landing/landing.css'
 
-const image1 = require('./img/ford/car1.webp');
-const image2 = require('./img/ford/car2.webp');
-const image3 = require('./img/ford/car3.webp');
-const image4 = require('./img/ford/car4.webp');
-const image5 = require('./img/ford/car5.webp');
-const image6 = require('./img/ford/car6.webp');
-
 
 export default class Main extends Component {
   constructor(props) {
