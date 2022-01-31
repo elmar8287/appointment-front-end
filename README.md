@@ -15,13 +15,6 @@ You can find the design on [Figma](https://www.figma.com/file/yhiRC0w1XxRU2M5LNS
 - CSS/Bootstrap
 - Figma
 
-## Project milestones:
-
-- Landing page creating
-- Login page creating
-- Setup page creating
-..
-
 ## Preparation
 
 - Install [Node.js](https://nodejs.org/en/).
