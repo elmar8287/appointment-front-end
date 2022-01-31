@@ -68,12 +68,12 @@ export default class Main extends Component {
           <div className="cars-list">
               {
                 items.map((item) => (
-                  <div className="car-card">
+                  <ul className="car-card">
               <Link to="/item">
                 <img src={item.image} alt="Ford company car" />
               </Link>
                 <p className="car-card__title"> { item.name } </p>
-              </div>
+              </ul>
                 ))
               }
 
