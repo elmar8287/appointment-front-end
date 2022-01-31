@@ -34,13 +34,6 @@ export default class Item extends Component {
 
   return (
     <div class="app-grid">
-      {
-				items.map((item) => (
-				<ol key = { item.id } >
-					Car: { item.name },
-					</ol>
-				))
-			}
       <aside class="sidebar">
         <div class="app-logo">Lando</div>
 
