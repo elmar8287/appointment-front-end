@@ -1,4 +1,4 @@
-import ActionTypes from '../store/types/action-types';
+import ActionTypes from './types/action-types';
 
 const initialState = { cars: [] };
 
