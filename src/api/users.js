@@ -10,7 +10,7 @@ const authenticateUser = async (username) => {
 
   const body = { name: username };
   const result = mainApi
-    .post('v1/users', body, config)
+    .post('v1/login', body, config)
     .then((response) => response.data);
   return result;
 };
@@ -25,7 +25,7 @@ const registerUser = async (username) => {
 
   const body = { name: username };
   const result = mainApi
-    .post('v1/users', body, config)
+    .post('v1/login', body, config)
     .then((response) => response.data);
   return result;
 };
