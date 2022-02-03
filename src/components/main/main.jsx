@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import '../landing/landing.css'
+import Navigation from '../navigation/navigation';
 
 
 export default class Main extends Component {
@@ -30,35 +31,8 @@ export default class Main extends Component {
 
   return (
     <div>
+      <Navigation />
     <div className="app-grid">
-    <aside className="sidebar">
-      <div className="app-logo">Lando</div>
-      <ul className="sidebar__nav">
-        <li className="sidebar__nav-link sidebar__nav-link--active">
-          <ion-icon name="car-sport-outline"></ion-icon><span>Ford</span>
-        </li>
-        <li className="sidebar__nav-link">
-          <ion-icon name="car-sport-outline"></ion-icon><span>BMW</span>
-        </li>
-        <li className="sidebar__nav-link">
-          <ion-icon name="calendar-outline"></ion-icon
-          ><span>Appointments</span>
-        </li>
-      </ul>
-      <ul className="sidebar__profile">
-        <li>
-          <ion-icon name="person-circle-outline"></ion-icon
-          ><span>Profile</span>
-        </li>
-        <li>
-          <ion-icon name="help-circle-outline"></ion-icon><span>Help</span>
-        </li>
-        <li><ion-icon name="book-outline"></ion-icon><span>About</span></li>
-        <li>
-          <ion-icon name="log-out-outline"></ion-icon><span>Logout</span>
-        </li>
-      </ul>
-    </aside>
     <main>
       <section className="section-cars">
         <div className="mini-container">

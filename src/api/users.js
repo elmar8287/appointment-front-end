@@ -25,7 +25,7 @@ const registerUser = async (username) => {
 
   const body = { name: username };
   const result = mainApi
-    .post('v1/login', body, config)
+    .post('v1/signup', body, config)
     .then((response) => response.data);
   return result;
 };
